@@ -1,0 +1,191 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.btn{
+  margin-top:20px;
+  margin-left: 70px;
+}
+
+.home-image{
+  margin-left: 70px;
+  background-image: url("/Images/myHome.png");
+  background-color:white;
+  height:220px;
+  width: 220px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.home-text{
+  text-align:left;
+  position: absolute;
+  top:10%;
+  left:10%;
+  color: white;
+}
+
+.fon{
+  font-size:18px;
+  font-weight:bold;
+}
+
+.fon1{
+  font-size:14px;
+  font-weight:bold;
+}
+
+.bottomHomeCard{
+  width:210px;
+  height:50px;
+  position: relative;
+  bottom: -78%;
+  left:3.5%;
+  background: rgba(101, 121, 145, 0.9);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.bottom-text{
+  text-align:left;
+  position: absolute;
+  top:10%;
+  left:10%;
+  color: white;
+  font-size:25px;
+  font-weight: bold;
+}
+
+.home-model-flex{
+  display: flex;
+  justify-content:left;
+}
+
+.Design-flex{
+  margin-top:0;
+  height: 300px;
+  width: auto;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.Design-buttons{
+  margin-top:70px;
+  height: 100px;
+  text-align: left;
+  text-indent: 70px;
+  width: auto;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  text-align: center;
+}
+
+.Product-flex{
+  height:200px;
+  width:auto;
+  margin-top:0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #526275;
+  align-items: center;
+}
+
+.Product-Main{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.Product-Card{
+  margin-top: 4px;
+  background-color: white;
+  height:139px;
+  width:200px;
+  border-radius: 0px 10px 10px 0px;
+  text-align: left;
+}
+
+.qwe{
+  margin-top:4px;
+  background-image: url("/Images/Product1.png");
+}
+
+.asd{
+  margin-top:4px;
+  background-image: url("/Images/Product2.png");
+}
+
+.zxc{
+  margin-top:4px;
+
+  background-image: url("/Images/Product3.png");
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Product-top{
+  margin-top:0px;
+  height:100px;
+  width:auto;
+  background-color: #526275;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  text-indent: 70px;
+}
+
+.ProductList{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+}
+
+.Card-flex{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.triangle-up {
+  margin-top: 10px;
+  margin-left: 70px;
+	width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 50px solid #526275;
+}
+
